@@ -46,6 +46,7 @@ module camera (
                         v_counter <= v_counter + 1;
                         hstate <= 0;
                         dvalid <= 0;
+                        byte_number <= 0;
                     end else if(href) begin
                         if(!hstate) hstate <= 1;
                         if(!byte_number) begin

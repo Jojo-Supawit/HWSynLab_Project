@@ -24,17 +24,27 @@ module top (
     output  [11:0] rgb
 );
 
+    wire xclk_gen;
+    wire nclk;
+
+    clk_wiz_0 clk_wiz(
+        .clk_in1(clk),
+        .clk_out1(xclk_gen),
+        .clk_out2(nclk)
+    );
+
+    wire subclk;
+
     assign camera_reset = !reset;
     assign camera_pwdn = 1'b0;
-    assign camera_xclk = clk;
+    assign camera_xclk = xclk_gen;
 
     wire [9:0] h_index;
     wire [9:0] v_index;
     wire video_on;
-    wire subclk;
 
     vga_controller vc(
-        .clk(clk),
+        .clk(nclk),
         .reset(reset),
         .video_on(video_on),
         .h_index(h_index),
@@ -56,9 +66,9 @@ module top (
 
     FIFO #(
         .word_size(32),
-        .address_size(10)
+        .address_size(14)
     ) fifo_mem (
-        .clk(clk),
+        .clk(nclk),
         .reset(reset),
         .data_in(fifo_in),
         .data_out(data_buf),
@@ -89,10 +99,10 @@ module top (
     );
 
     wire sgp_camera_dvalid;
-    wire delay_data;
+    wire [31:0] delay_data;
 
     single_pulser dvalid_sgp(
-        .clk(clk),
+        .clk(nclk),
         .din(camera_dvalid),
         .dout(sgp_camera_dvalid)
     );
@@ -100,13 +110,13 @@ module top (
     delay #(
         .word_size(32)
     ) camera_dout_delay(
-        .clk(clk),
+        .clk(nclk),
         .din(camera_dout),
         .dout(delay_data)
     );
 
     ila_0 ila_inst(
-        .clk(clk),
+        .clk(nclk),
         .probe0(hsync),
         .probe1(vsync),
         .probe2(rgb),
@@ -121,13 +131,19 @@ module top (
         .probe11(delay_data)
     );
 
-    always @(posedge clk ) begin
+    always @(posedge nclk ) begin
         if(reset) begin
-            
+            write_h <= 0;
+            write_v <= 0;
         end else begin
-            if(free && camera_synconized) begin
+            if(free && camera_synconized && delay_data[31:22] == write_h && delay_data[21:12] == write_v && sgp_camera_dvalid) begin
                 fifo_in <= delay_data;
                 write_enb <= sgp_camera_dvalid;
+                if(write_h == 639) begin
+                    if(write_v == 479) write_v <= 0;
+                    else write_v <= write_v + 1;
+                    write_h <= 0;
+                end else write_h <= write_h + 1;
             end else begin
                 write_enb <= 0;
             end
@@ -142,7 +158,7 @@ module top (
     //
 
     // Test VGA
-    // always @(posedge clk ) begin
+    // always @(posedge nclk ) begin
     //     if(reset) begin
     //         write_h <= 0;
     //         write_v <= 0;
@@ -170,7 +186,7 @@ module top (
     //     end
     // end
 
-    always @(posedge clk) begin
+    always @(posedge nclk) begin
         if(reset) begin
 
         end else begin
