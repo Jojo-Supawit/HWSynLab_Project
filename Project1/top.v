@@ -43,9 +43,12 @@ module top (
     wire [9:0] v_index;
     wire video_on;
 
+    reg start_screen = 0;
+    wire screen_disable = reset || !start_screen;
+
     vga_controller vc(
         .clk(nclk),
-        .reset(reset),
+        .reset(screen_disable),
         .video_on(video_on),
         .h_index(h_index),
         .v_index(v_index),
@@ -95,7 +98,7 @@ module top (
         .vsync(camera_vsync),
         .dout(camera_dout),
         .dvalid(camera_dvalid),
-        .synconized(camera_synconized)
+        .synchronized(camera_synconized)
     );
 
     wire sgp_camera_dvalid;
@@ -135,8 +138,9 @@ module top (
         if(reset) begin
             write_h <= 0;
             write_v <= 0;
+            start_screen <= 0;
         end else begin
-            if(free && camera_synconized && delay_data[31:22] == write_h && delay_data[21:12] == write_v && sgp_camera_dvalid) begin
+            if(free && camera_synconized && sgp_camera_dvalid) begin
                 fifo_in <= delay_data;
                 write_enb <= sgp_camera_dvalid;
                 if(write_h == 639) begin
@@ -144,6 +148,7 @@ module top (
                     else write_v <= write_v + 1;
                     write_h <= 0;
                 end else write_h <= write_h + 1;
+                start_screen <= 1;
             end else begin
                 write_enb <= 0;
             end
@@ -187,11 +192,11 @@ module top (
     // end
 
     always @(posedge nclk) begin
-        if(reset) begin
+        if(screen_disable) begin
 
         end else begin
             if(subclk) begin
-                if(video_on && data_valid && (data_buf[31:22] == h_index && data_buf[21:12] == v_index)) begin
+                if(video_on && data_valid) begin
                     rgb_reg <= data_buf[11:0];
                     data_valid <= 0;
                 end else begin
