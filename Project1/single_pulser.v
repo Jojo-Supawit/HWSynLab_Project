@@ -3,7 +3,7 @@
 module single_pulser (
     input       clk,
     input       din,
-    input reg   dout
+    output reg  dout
 );
     reg [1:0] state = 0;
 
