@@ -91,7 +91,7 @@ module camera_sccb (
                             8'd11: begin din <= {8'h51, 8'h0E}; state <= 1; end
                             8'd12: begin din <= {8'h52, 8'h38}; state <= 1; end
                             8'd13: begin din <= {8'h53, 8'h90}; state <= 1; end
-                            8'd14: begin din <= {8'h54, 8'hF7}; state <= 1; end
+                            8'd14: begin din <= {8'h54, 8'hEB}; state <= 1; end
                             8'd15: begin din <= {8'h58, 8'h9A}; state <= 1; end
                             8'd16: begin din <= {8'h3D, 8'hC2}; state <= 1; end // COM13: gamma + UV saturation + reserved bit used by Linux RGB565 profile.
                             8'd17: begin din <= {8'h17, 8'h14}; state <= 1; end // VGA windowing used by the reference design.

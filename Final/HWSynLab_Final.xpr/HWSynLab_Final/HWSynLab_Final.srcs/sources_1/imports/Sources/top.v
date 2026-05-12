@@ -33,11 +33,6 @@ module top (
     // wire [19:0] address = {v_index, h_index};
     reg  [11:0] rgb_reg = 0;
     reg  vga_sync = 0;
-    reg video_out_group = 0;
-    reg [9:0] buffer [0:639];
-    reg [4:0] avg_red;
-    reg [4:0] avg_green;
-    reg [4:0] avg_blue;
 
     wire [31:0] camera_dout;
     wire [31:0] delay_camera_dout;
@@ -227,24 +222,13 @@ module top (
 
     always @(posedge nclk) begin
         if(reset || !vga_sync) begin
-            video_out_group <= 0;
+
         end else begin
             case (subclk_counter)
                 0: begin
-                    if(v_index[0] != video_out_group && ((video_out_group == 0 && v_index > 0) || (video_out_group == 1 && v_index < 639))) begin
-                        avg_red <= (data_buf[9:7] + buffer[h_index][9:7])>>1;
-                        avg_green <= (data_buf[6:3] + buffer[h_index][6:3])>>1;
-                        avg_blue <= (data_buf[2:0] + buffer[h_index][2:0])>>1;
-                    end else begin
-                        avg_red <= data_buf[9:7];
-                        avg_green <= data_buf[6:3];
-                        avg_blue <= data_buf[2:0];
-                        buffer[h_index] <= data_buf;
-                    end
-                    // pre_filter <= data_buf;
+                    pre_filter <= data_buf;
                 end 
                 1: begin
-                    pre_filter <= {avg_red[2:0], avg_green[3:0], avg_blue[2:0]};
                     if(h_index >= 639 && v_index >= 479) begin
                         read_address <= 0;
                     end else if(h_index >= 639) begin
@@ -261,7 +245,6 @@ module top (
                         // rgb_reg[7:4] <= data_buf[6:3];
                         // rgb_reg[3:1] <= data_buf[2:0];
                         // rgb_reg[0] <= data_buf[2];
-                        if(h_index == 639 && v_index == 479) video_out_group <= ~video_out_group;
                     end else begin
                         rgb_reg <= 0;
                     end

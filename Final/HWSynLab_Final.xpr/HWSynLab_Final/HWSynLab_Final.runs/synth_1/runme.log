@@ -1,0 +1,780 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon May 11 03:38:19 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23832
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1293.945 ; gain = 540.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_ext.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:69]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:71]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:109]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:111]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:150]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:152]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:192]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:194]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:235]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:237]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:279]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:281]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:324]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:326]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:370]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:372]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:419]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:465]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:467]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:514]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:516]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:564]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:566]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:615]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core.vh:617]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:65]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:67]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:100]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:102]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:135]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:137]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:170]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:172]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:205]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:207]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:240]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:242]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:275]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:277]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:310]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:312]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:345]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:347]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:380]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:382]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:415]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:417]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:450]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:452]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:485]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:487]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:30]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:32]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:65]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:67]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:100]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:102]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:135]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:137]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:170]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:172]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:205]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:207]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:240]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:242]
+INFO: [Synth 8-11241] undeclared symbol 'tms_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:275]
+INFO: [Synth 8-11241] undeclared symbol 'runtest_int', assumed default net type 'wire' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/verilog/xsdbm_v3_0_5_bs_core_vec.vh:277]
+INFO: [Common 17-14] Message 'Synth 8-11241' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v:66]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0_clk_wiz' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:66]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82804]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:82804]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95844]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 9.000000e+00 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000e+00 - type: double 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 1.000000e+01 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 3.750000e+01 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 5.000000e-01 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000e+00 - type: double 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 9 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 5.000000e-01 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000e+00 - type: double 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:95844]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:2678]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0_clk_wiz' (0#1) [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v:66]
+INFO: [Synth 8-6157] synthesizing module 'vga_slave_controller' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/vga_slave_controller.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'vga_slave_controller' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/vga_slave_controller.v:3]
+INFO: [Synth 8-6157] synthesizing module 'camera' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'camera' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera.v:3]
+INFO: [Synth 8-6157] synthesizing module 'single_pulser' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/single_pulser.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/single_pulser.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'single_pulser' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/single_pulser.v:3]
+INFO: [Synth 8-6157] synthesizing module 'deboucer' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/deboucer.v:3]
+	Parameter sample_size bound to: 1023 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'deboucer' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/deboucer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'camera_sccb' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:3]
+INFO: [Synth 8-6157] synthesizing module 'I2C_master' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:3]
+	Parameter word_number bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:91]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:107]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:123]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:164]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:227]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:250]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'I2C_master' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/I2C_master.v:3]
+WARNING: [Synth 8-7071] port 'dout_ack' of module 'I2C_master' is unconnected for instance 'dut' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:39]
+WARNING: [Synth 8-7023] instance 'dut' of module 'I2C_master' has 15 connections declared, but only 14 given [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'camera_sccb' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:3]
+WARNING: [Synth 8-689] width (6) of port connection 'dindex' does not match port width (7) of module 'camera_sccb' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:151]
+WARNING: [Synth 8-7071] port 'reg_data' of module 'camera_sccb' is unconnected for instance 'sccb' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:144]
+WARNING: [Synth 8-7023] instance 'sccb' of module 'camera_sccb' has 11 connections declared, but only 10 given [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:144]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:71]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_0.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 10 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 10 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 163840 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 163840 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 10 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 10 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 163840 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 163840 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 45 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     9.79382 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_12' declared at 'c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195209' bound to instance 'U0' of component 'blk_mem_gen_v8_4_12' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:242]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (0#1) [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:71]
+INFO: [Synth 8-6157] synthesizing module 'filter' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/filter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'filter' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/filter.v:3]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:190]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:48]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3131]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3131]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3094]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:3094]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165484]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165484]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165334]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165334]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165423]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:165423]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:49396]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [C:/AMDDesignTools/2025.2/Vivado/scripts/rt/data/unisim_comp.v:49396]
+INFO: [Synth 8-7071] port 'clk_nobuf' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7071] port 'clkdiv_out' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7071] port 'trig_in' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7071] port 'trig_in_ack' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7071] port 'trig_out' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7071] port 'trig_out_ack' of module 'ila_v6_2_19_ila' is unconnected for instance 'inst' [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-7023] instance 'inst' of module 'ila_v6_2_19_ila' has 1033 connections declared, but only 1027 given [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:3225]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:48]
+WARNING: [Synth 8-689] width (6) of port connection 'probe5' does not match port width (7) of module 'ila_0' [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:197]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:227]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:3]
+WARNING: [Synth 8-3848] Net reg_data in module/entity camera_sccb does not have driver. [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera_sccb.v:9]
+INFO: [Synth 8-3848] Net sl_iport0 in module/entity ila_0 does not have driver. [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/synth/ila_0.v:114]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'sccb'. This will prevent further optimization [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:144]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_inst'. This will prevent further optimization [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:190]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'cam'. This will prevent further optimization [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/top.v:99]
+WARNING: [Synth 8-3917] design top has port camera_pwdn driven by constant 0
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[31] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[30] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[29] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[28] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[27] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[26] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[25] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[24] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[23] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[22] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[21] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[20] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[19] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[18] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[17] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[16] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[15] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[14] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[13] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[12] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[11] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[10] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[9] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[8] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[7] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[6] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[5] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[4] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[3] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[2] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[1] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA_I[0] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[11] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_gen_v8_4_12_blk_mem_output_block__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[8] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[7] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[6] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[5] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[4] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[3] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[2] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[1] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[8] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[7] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[6] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[5] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[4] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[3] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[2] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[1] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized45 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[8] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[7] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[6] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[5] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[4] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[3] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[2] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[1] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTA[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[8] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[7] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[6] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[5] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[4] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[3] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[2] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[1] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[0] in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_v8_4_12_blk_mem_gen_prim_wrapper__parameterized44 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2016.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 166 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_inst/inst'
+Finished Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_inst/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz/inst'
+Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Constraints/Basys-3-Master.xdc]
+Finished Parsing XDC File [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Constraints/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Constraints/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2016.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 85 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 72 instances
+  CFGLUT5 => SRLC32E: 13 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 2016.699 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'single_pulser'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'I2C_master'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'camera_sccb'
+WARNING: [Synth 8-6040] Register data_index_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized4'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized5'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized6'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized7'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized8'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_5_reg_p2s__parameterized9'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ltlib_v1_0_3_generic_memrd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'single_pulser'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE3 |                             0000 |                             0000
+                 iSTATE2 |                             0001 |                             0001
+                 iSTATE1 |                             0010 |                             0010
+                  iSTATE |                             0011 |                             0011
+                 iSTATE0 |                             0100 |                             0100
+                 iSTATE7 |                             0101 |                             0101
+                 iSTATE5 |                             0110 |                             0110
+                 iSTATE4 |                             0111 |                             0111
+                 iSTATE6 |                             1000 |                             1111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'I2C_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                           000000
+                 iSTATE6 |                              001 |                           000001
+                 iSTATE0 |                              010 |                           000010
+                 iSTATE1 |                              011 |                           000011
+                 iSTATE5 |                              100 |                           000100
+                 iSTATE2 |                              101 |                           000101
+                 iSTATE3 |                              110 |                           000110
+                 iSTATE4 |                              111 |                           000111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'camera_sccb'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized4'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized5'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized6'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized7'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized8'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                             0001
+                     REG |                             0010 |                             0010
+                     P2S |                             0100 |                             0100
+                     S2P |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdbs_v1_0_5_reg_p2s__parameterized9'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              RESET_ADDR |                          0000001 |                          0000001
+            REQUEST_READ |                          0000010 |                          0000010
+           WAIT_READ_ACK |                          0000100 |                          0000100
+             OUTPUT_DATA |                          0001000 |                          0001000
+                    IDLE |                          0010000 |                          0010000
+         INCREMENT_BLOCK |                          0100000 |                          0100000
+       INCREMENT_ADDRESS |                          1000000 |                          1000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'ltlib_v1_0_3_generic_memrd'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6040] Register data_index_reg_rep_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+WARNING: [Synth 8-3917] design top has port camera_pwdn driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [C:/Users/jojos/Documents/VSCode/Verilog/HWSynLab/Final/Sources/camera.v:31]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     4|
+|2     |CARRY4     |    60|
+|3     |CFGLUT5    |    85|
+|4     |LUT1       |    49|
+|5     |LUT2       |   158|
+|6     |LUT3       |   186|
+|7     |LUT4       |   327|
+|8     |LUT5       |   222|
+|9     |LUT6       |   617|
+|10    |MMCME2_ADV |     1|
+|11    |MUXF7      |    51|
+|12    |MUXF8      |    19|
+|13    |RAMB36E1   |    49|
+|18    |SRL16E     |    35|
+|19    |SRLC16E    |     2|
+|20    |SRLC32E    |    17|
+|21    |FDRE       |  1905|
+|22    |FDSE       |    14|
+|23    |IBUF       |    31|
+|24    |IOBUF      |     1|
+|25    |OBUF       |    18|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5743 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:47 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 2016.699 ; gain = 1263.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2020.695 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 266 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila_inst UUID: b65d52e4-76d5-562d-b429-2afca0f6d0a3 
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2028.363 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 86 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 72 instances
+  CFGLUT5 => SRLC32E: 13 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
+
+Synth Design complete | Checksum: b7f24cb4
+INFO: [Common 17-83] Releasing license: Synthesis
+219 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:01 . Memory (MB): peak = 2028.363 ; gain = 1457.352
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2028.363 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jojos/Documents/Vivado/HWSynLab_Final/HWSynLab_Final.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May 11 03:39:27 2026...
